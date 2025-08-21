@@ -1,0 +1,65 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d0e8f2; /* azul pastel */
+            color: #333;
+        }
+
+        header {
+            background-color: #d0e8f2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            border-bottom: 2px solid #a0c4de;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #004c99; /* azul fuerte */
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #004c99;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .menu a i {
+            margin-right: 5px;
+        }
+
+        .logo-img {
+            width: 50px;
+            height: 50px;
+        }
+
+        main {
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        main h1 {
+            color: #004c99;
+        }
+
+        main p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #a0c4de;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #003366;
+            margin-top: 50px;
+        }
